@@ -1,0 +1,20 @@
+-- database: ./site.db
+
+
+-- DELETE FROM users
+-- WHERE id BETWEEN ? AND ?;
+
+
+-- CREATE TABLE new_user (
+--     id INTEGER PRIMARY KEY AUTOINCREMENT,
+--     username varchar(20) NOT NULL UNIQUE,
+--     password varchar(60) NOT NULL
+-- );
+
+
+-- INSERT INTO new_user (username, password)
+-- SELECT username, password FROM user ORDER BY id;
+
+
+-- DROP TABLE user;
+-- ALTER TABLE new_user RENAME TO user;
